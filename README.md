@@ -21,40 +21,50 @@
 
 ## Módulos
 
-### Módulo 1 - Getting Started - Semana 1 a 3
-En este módulo pulimos tus conocimientos de cómo usas tu equipo de cómputo y cómo funciona internet para que puedas resolver problemáticas que van más allá del lenguaje y están relacionados con la arquitectura de internet. 
+### Módulo 0: Regularización (3 semanas)
+* Semana 1: Conceptos básicos de internet, Git
+* Semana 2: HTML y CSS básico
+* Semana 3: Lógica y Pseudocódigo, javascript básicos
+
+###	Módulo 1: Computer Science (1 semana)
+
+* Semana 4: Semana entera de ejercicios de JS
 
 [![por qué aprender a progrmar](assets/s1_fullstack.png)](https://youtu.be/X5Wkp1gsNik)
 
-### Módulo 2 - Designing API - Semana 4 a 7
-Aprenderás a cómo utilizar ExpressJS para hacer una API REST, como modelar datos y hacer una implementación en manejadores como MySQL y MongoDB. Aplicar Testing a módulos y usar git para trabajo colaborativo
+### Módulo 2: Frontend web
+* Semana 5: Javascript avanzado, DOM
+* Semana 6: OPP y Asincronía (promesas)
+* Semana 7: CSS y HTML avanzado, Bootstrap / Materialize
+
+### Módulo 3: Backend web
+* Semana 8: Node JS, Servers
+* Semana 9: Express y REST
 
 [![API REST](assets/s2_fullstack.png)](https://youtu.be/u2Ms34GE14U)
+	
+### Módulo 4: Bases de datos
+* Semana 10: MySQL
+* Semana 11: MongoDB
 
-### Módulo 3 - Building Client - Semana 8
-Aprenderás a usar React para construir aplicaciones, aprenderás a hacer SPA, arquitectura de componentes y testing usando jest + enzyme
+### Módulo 5: React
+* Semana 12: Babel y webpack, React básico
+* Semana 13: React intermedio
 
 [![React and SOAP](assets/s3_fullstack.png)](https://youtu.be/nN0DrXR893M)
 
-### Módulo 3 - Design Software & Paradigms - Semana 9
-Aprenderás a usar patrones de diseño, SOLID y paradigmas de programación para brindar mejores soluciones, refactorizando código y hacerlo más mantenible
-
-[![Design patterns and good practices](assets/s4_fullstack.png)](https://youtu.be/RL_ec8tORss)
-
-### Módulo 4 - Redux - Semana 10
-Aprenderás a usar Redux y conectarlo con React para crear aplicaciones más robustas separando el estado de la aplicación de la lógica de programación
-
-[![Redux](assets/s5_fullstack.png)](https://youtu.be/Ko7avuco-Gw)
-
-### Módulo 5 - Ending - Semana 11 y 12
-Aprenderás algunas herramientas como firebase, conceptos de algoritmia y resolución de problemas además de soft-skills que te ayudarán a ser un mejor profesional: tracking de tiempo y public speaking
+### Módulo 6: Final
+* Semana 14: Firebase
+* Semana 15: Deployment y Proyecto
+* Semana 16: Proyecto
 
 [![Softskills](assets/s6_fullstack.png)](https://youtu.be/ZfgKabK3MiI)
+[![Design patterns and good practices](assets/s4_fullstack.png)](https://youtu.be/RL_ec8tORss)
 
 
 ## Instructores
 
- - [GDL] 
+ - [GDL] ![Israel Cruz](https://www.linkedin.com/in/israel-cruz-a60767103)
  - [CDMX]
 
 License
