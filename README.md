@@ -2,6 +2,10 @@
 
 ![FullStack](https://centraal.academy/images/badges/fullstack-badge.png)
 
+### ¿Qué sigue?
+
+Con este material encontrarás tu curso dividido en módulos y semanas, te recomendamos revisar los vídeos un par de días antes de esa clase para que tengas mejor visualización del tipo de contenido y temas que aprenderás.
+
 ## Al entrar
   - Desarrollador con 1 o menos años de experiencia trabajando en maquetación HTML/CSS y programación JavaScript
 - Conocimientos básicos o nulos de control de versiones git.
