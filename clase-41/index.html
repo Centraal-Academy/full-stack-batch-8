@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ol id="users">
+
+</ol>
+<script>
+    const config = {
+        method: 'GET', // *GET, POST, PUT, DELETE, etc.
+        mode: 'cors', // no-cors, *cors, same-origin
+        cache: 'no-cache', // default, *no-cache, reload, force-cache, only-if-cached
+        credentials: 'same-origin', // include, *same-origin, omit
+        headers: {
+            'Content-Type': 'application/json'
+            // 'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        redirect: 'follow', // manual, *follow, error
+        referrer: 'no-referrer', // no-referrer, *client
+        // body: JSON.stringify({})  body data type must match "Content-Type" header
+    };
+    fetch('https://randomuser.me/api/?results=50', config)
+        .then(response => response.json())
+        .then(payload => {
+            for (const user of payload.results) {
+                document.querySelector('#users').innerHTML += `
+                <li>${user.name.first} ${user.name.last}, ${user.email}</li>
+            `;
+            }
+        });
+</script>
+</body>
+</html>

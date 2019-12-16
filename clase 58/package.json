@@ -1,0 +1,17 @@
+{
+  "name": "clase-57",
+  "version": "1.0.0",
+  "description": "Comenzar los conocimientos de Backend con el protocolo HTTP y los conceptos de request y response. Además, recibiremos nuestro primer request.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button onclick="loadAJAX()">AJAX</button>
+<button onclick="loadFetch()">FETCH</button>
+
+<ol id="users">
+
+</ol>
+<script>
+    function loadFetch() {
+        fetch('http://localhost:3000/users')
+            .then(response => response.json())
+            .then(payload => {
+                for (const user of payload) {
+                    document.querySelector('#users').innerHTML += `
+                <li>${user.name.first} ${user.name.last}, ${user.email}</li>
+            `;
+                }
+            });
+    }
+
+    function loadAJAX() {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status === 200) {
+                for (const user of JSON.parse(this.responseText)) {
+                    document.querySelector('#users').innerHTML += `
+                <li>${user.name.first} ${user.name.last}, ${user.email}</li>
+            `;
+                }
+            }
+        };
+        xhttp.open("GET", "http://localhost:3000/users", true);
+        xhttp.send();
+    }
+</script>
+</body>
+</html>
